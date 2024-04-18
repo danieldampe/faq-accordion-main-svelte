@@ -3,6 +3,7 @@
   import bgDesktop from './images/background-pattern-desktop.svg'
   import iconStar from './images/icon-star.svg'
   import AccordionItem from './lib/AccordionItem.svelte'
+  import Attribution from './lib/Attribution.svelte';
 
   let items = [
     {
@@ -54,6 +55,7 @@
     {/each}
   </div>
 </div>
+<Attribution />
 
 <style>
   .faq-accordion {
